@@ -8,6 +8,7 @@ namespace GUID_Duplicate
 {
     static class GuidGenerator
     {
+        //Generates a GUID
         public static Guid GuidGeneratorMethod()
         {
              Guid id = Guid.NewGuid();
